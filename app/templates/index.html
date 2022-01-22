@@ -1,0 +1,24 @@
+<!-- VARIABLES QUE RECIBE
+1.-  data
+-->
+<!-- Importar platilla -->
+{% extends './layout.html' %}
+
+<title> {% block title %} {{ data.Titulo }} {% endblock %} </title>
+
+ 
+<body>
+{% block body %}
+
+    <h1>{{ data.Saludo }}</h1>
+
+    <ul>
+
+        {% for name in data.Integrantes %}
+        <li>{{ name }}</li>
+        {% endfor %}
+
+    </ul>
+
+{% endblock %}
+</body>
