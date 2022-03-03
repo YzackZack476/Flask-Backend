@@ -1,0 +1,20 @@
+1.- Instalar Python
+2.- Instalar Pycharm
+3.- Instalar librerias
+    - requierements.txt
+    - pip install virtualenv
+
+4.- Crear el ambiente virtual
+    - Crear la carpeta en donde se instalaran los ambientes (./entorno)
+    - Escribir comando: virtualenv -p python3 << Nombre del ambiente >> 
+
+5.- Entrar en el ambiente virtual
+    - "./entorno/env/Scripts/activate"
+    - Se ingresa al anviente virtual
+
+6.- Instalar dependencias dentro de este abiente virtual
+7.- Guardar dependencias con comando:
+    - Escribir comando: pip freeze > requierements.txt 
+    
+8.- Para salir del ambiente virtual
+    - Escribir comando: deactivate
