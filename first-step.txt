@@ -10,9 +10,9 @@
 
 5.- Entrar en el ambiente virtual
     - "./entorno/env/Scripts/activate"
-    - Se ingresa al anviente virtual
+    - Se ingresa al ambiente virtual
 
-6.- Instalar dependencias dentro de este abiente virtual
+6.- Instalar dependencias dentro de este ambiente virtual
 7.- Guardar dependencias con comando:
     - Escribir comando: pip freeze > requierements.txt 
     
